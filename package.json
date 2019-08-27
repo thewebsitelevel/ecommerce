@@ -1,20 +1,19 @@
 {
-  "name": "nodejs",
+  "name": "nodejs-complete-guide",
   "version": "1.0.0",
-  "description": "",
+  "description": "Learn node",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js",
+    "start": "nodemon app.js",
     "start-server": "node app.js"
   },
   "author": "Ravinder",
   "license": "ISC",
   "devDependencies": {
-  
+    "nodemon": "^1.18.3"
   },
   "dependencies": {
-    "nodemon": "^1.18.3",
     "body-parser": "^1.18.3",
     "ejs": "^2.6.1",
     "express": "^4.16.3",
