@@ -1,20 +1,19 @@
 {
   "name": "nodejs-complete-guide",
   "version": "1.0.0",
-  "description": "Learn node",
+  "description": "Complete Node.js Guide",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon app.js",
     "start-server": "node app.js"
   },
-  "author": "Ravinder",
+  "author": "Maximilian Schwarzmüller",
   "license": "ISC",
   "devDependencies": {
-    
+    "nodemon": "^1.18.3"
   },
   "dependencies": {
-    "nodemon": "^1.19.1",
     "body-parser": "^1.18.3",
     "ejs": "^2.6.1",
     "express": "^4.16.3",
