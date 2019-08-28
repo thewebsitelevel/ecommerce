@@ -10,7 +10,9 @@
   },
   "author": "Maximilian Schwarzmüller",
   "license": "ISC",
-  "devDependencies": {},
+  "devDependencies": {
+    
+  },
   "dependencies": {
     "nodemon": "^1.18.3",
     "body-parser": "^1.18.3",
